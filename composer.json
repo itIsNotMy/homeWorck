@@ -1,0 +1,22 @@
+{
+    "name": "misha/my_poject",
+    "autoload": {
+        "psr-4": {
+            "Misha\\MyPoject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Misha suh",
+            "email": "my@project.ru"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": ["src"]
+        }
+    }
+}
