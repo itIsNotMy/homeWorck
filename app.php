@@ -4,6 +4,6 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'a
 
 $app = new \Symfony\Component\Console\Application('demo application');
 
-$app->add(new \App\MyCommand());
+$app->add(new \App\Command2());
 
 $app->run();
